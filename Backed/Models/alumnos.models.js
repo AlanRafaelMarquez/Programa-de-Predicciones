@@ -1,5 +1,5 @@
-import {Schema, model} from 'mongoose'
-const Esqueleto_de_tabla_Alumnos = Schema({
+import {schma, model} from 'mongose'
+const Esqueleto_de_tabla_Alumnos = chema({
     alumno : String,
     materias : String,
     calificacionPM : Number,
@@ -8,4 +8,4 @@ const Esqueleto_de_tabla_Alumnos = Schema({
     grado : Number
 })
 
-export const Tabla = new model("Tabla de Alumnos",Esqueleto_de_tabla_Alumnos)
+export const Tabla =  model("Tabla de Alumnos",Esqueleto_de_tabla)
